@@ -31,5 +31,3 @@ def caesar_cipher(string, shift)
   return result.pack('c*')
 end 
 
-
-p caesar_cipher("What a string!", -5)
